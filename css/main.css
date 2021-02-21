@@ -4,3 +4,7 @@
 @import "./images.css";
 @import "./homepage_layout.css";
 @import "./post_layout.css";
+
+.body{
+    background-color: aqua;
+}
