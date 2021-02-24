@@ -1,0 +1,22 @@
+.photobox{
+    width: 250px;
+    height: 250px;
+}
+
+#one{
+    background-image: url('/images/theLovers.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#two{
+    background-image: url('/images/mage.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#three{
+    background-image: url('/images/King-Of-Beams.PNG');
+    background-size: contain;
+    background-repeat: no-repeat;
+}

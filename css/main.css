@@ -5,6 +5,29 @@
 @import "./homepage_layout.css";
 @import "./post_layout.css";
 
-.body{
-    background-color: aqua;
+body{
+    /* background-color: aqua; */
+    background-image: linear-gradient(#ff12f7,#12fbff);
+    background-repeat: no-repeat;
+}
+
+h1, h2 {
+    color: #fff;
+    font-family: 'Acme', sans-serif;
+}
+
+.logo {
+    font-size: 5em;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+    list-style-type: none;
 }
