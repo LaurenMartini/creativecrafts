@@ -2,7 +2,8 @@
 .container{
     display: grid;
     grid-template-columns: 300px 300px;
-    grid-template-rows: 250px 400px 600px 150px;
+    /* grid-template-rows: 250px 450px 300px 150px; */
+    grid-auto-rows: minmax(200px, auto);
     grid-template-areas:
         "hd"
         "sd"
@@ -20,17 +21,17 @@
 
 .sidebar{
     grid-area:sd;
+    padding: 0 25px;
 }
 
 .main{
     grid-area:main;
-    /* background-color: #fff; */
 }
 
 .footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     grid-area:ft;
 }
@@ -40,7 +41,8 @@
     .container{
         display:grid;
         grid-template-columns: 300px 300px 300px;
-        grid-template-rows: 250px 600px;
+        /* grid-template-rows: 250px 600px; */
+        grid-auto-rows: minmax(200px, auto);
         grid-template-areas: 
         "hd hd hd hd hd hd hd hd"
         "sd main main main main main main main"
@@ -53,7 +55,8 @@
     .container{
         display:grid;
         grid-template-columns: 300px 300px 300px;
-        grid-template-rows: 250px 600px;
+        /* grid-template-rows: 250px 900px; */
+        grid-auto-rows: minmax(200px, auto);
         grid-template-areas: 
         "hd hd hd hd hd hd hd hd"
         "sd main main main main main main main"
@@ -66,4 +69,10 @@
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 50% 50%;
+}
+
+.post-img-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: minmax(150px, auto);
 }

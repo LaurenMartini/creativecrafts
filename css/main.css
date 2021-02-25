@@ -11,7 +11,7 @@ body{
     background-repeat: no-repeat;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #fff;
     font-family: 'Acme', sans-serif;
 }
@@ -26,8 +26,29 @@ a {
 
 p {
     font-family: 'Montserrat', sans-serif;
+    color: #fff;
 }
 
 ul{
     list-style-type: none;
+}
+
+.streamlineLink {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social {
+    margin-left: 20px;
+}
+
+.fab {
+    color: #fff;
+}
+
+figure{
+    display: flex;
+    height: 300px;
+    flex-direction: row;
+    justify-content: center;
 }
