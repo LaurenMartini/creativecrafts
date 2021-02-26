@@ -66,19 +66,46 @@
                         </ul>
                     </div>
                 </nav>
-                <nav>
-                    <a class="streamlineLink" href="homepage.html">Home</a>
-                </nav>
+                <form>
+                    <div class="formHeader">
+                        <h2>Subscribe</h2>
+                    </div>
+                    <div class="formBody">
+                        <label class="formLabel">
+                            Name
+                            <input type="text" placeholder="Name" name="name" required>
+                        </label>
+                        <label class="formLabel">
+                            Email
+                            <input type="text" placeholder="Email address" name="mail" required>
+                        </label>
+                    </div>
+                    <div class="formBtn">
+                        <button type="submit" class="btn">Subscribe</button>
+                    </div>
+                </form>
+                <button type="button" class="btn" onclick="document.location='homepage.html'">Home</button>
             </div>
             <div class="main">
-                Content
+                <div class="post-img-grid">
+                    <img class="photobox" src="/images/pageOfBeams.png" alt="Woman winking in front of geometric background">
+                </div>
+                <article>
+                    <h2>Page of Beams</h2>
+                    <p>
+                        Part of my <a href="featured.html">OW Tarot Card Project</a>
+                    </p>
+                    <p>
+                        Page of Beams (Wands) features Tracer since she is adventurous and seizes the day.
+                    </p>
+                </article>
             </div>
             <div class="footer">
                 <!--social media links-->
-                <a href="https://www.instagram.com/mortalitasiklaus/">
+                <a href="https://www.instagram.com/mortalitasiklaus/" aria-label="Visit Instagram">
                     <i class="fab fa-instagram fa-lg"></i>
                 </a>
-                <a class="social" href="https://twitter.com/tiniMcCree">
+                <a class="social" href="https://twitter.com/tiniMcCree" aria-label="Visit Twitter">
                     <i class="fab fa-twitter fa-lg"></i>
                 </a>
             </div>

@@ -66,19 +66,46 @@
                         </ul>
                     </div>
                 </nav>
-                <nav>
-                    <a class="streamlineLink" href="homepage.html">Home</a>
-                </nav>
+                <form>
+                    <div class="formHeader">
+                        <h2>Subscribe</h2>
+                    </div>
+                    <div class="formBody">
+                        <label class="formLabel">
+                            Name
+                            <input type="text" placeholder="Name" name="name" required>
+                        </label>
+                        <label class="formLabel">
+                            Email
+                            <input type="text" placeholder="Email address" name="mail" required>
+                        </label>
+                    </div>
+                    <div class="formBtn">
+                        <button type="submit" class="btn">Subscribe</button>
+                    </div>
+                </form>
+                <button type="button" class="btn" onclick="document.location='homepage.html'">Home</button>
             </div>
             <div class="main">
-                Content
+                <div class="post-img-grid">
+                    <img class="photobox" src="/images/King-Of-Beams.PNG" alt="Man standing in front of a colorful wall">
+                </div>
+                <article>
+                    <h2>King of Beams</h2>
+                    <p>
+                        Part of my <a href="featured.html">OW Tarot Card Project</a>
+                    </p>
+                    <p>
+                        King of Beams (Wands) features Lucio since he uses his musical creations to heal.
+                    </p>
+                </article>
             </div>
             <div class="footer">
                 <!--social media links-->
-                <a href="https://www.instagram.com/mortalitasiklaus/">
+                <a href="https://www.instagram.com/mortalitasiklaus/" aria-label="Visit Instagram">
                     <i class="fab fa-instagram fa-lg"></i>
                 </a>
-                <a class="social" href="https://twitter.com/tiniMcCree">
+                <a class="social" href="https://twitter.com/tiniMcCree" aria-label="Visit Twitter">
                     <i class="fab fa-twitter fa-lg"></i>
                 </a>
             </div>

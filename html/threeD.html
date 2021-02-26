@@ -66,29 +66,49 @@
                         </ul>
                     </div>
                 </nav>
-                <nav>
-                    <a class="streamlineLink" href="homepage.html">Home</a>
-                </nav>
+                <form>
+                    <div class="formHeader">
+                        <h2>Subscribe</h2>
+                    </div>
+                    <div class="formBody">
+                        <label class="formLabel">
+                            Name
+                            <input type="text" placeholder="Name" name="name" required>
+                        </label>
+                        <label class="formLabel">
+                            Email
+                            <input type="text" placeholder="Email address" name="mail" required>
+                        </label>
+                    </div>
+                    <div class="formBtn">
+                        <button type="submit" class="btn">Subscribe</button>
+                    </div>
+                </form>
+                <button type="button" class="btn" onclick="document.location='homepage.html'">Home</button>
             </div>
             <div class="main">
-                <div class="post-img-grid">
-                    <img class="photobox" src="/images/updatedFace2.JPEG" alt="Digital model of a woman's face">
-                </div>
                 <article>
-                    <h2>Digital Character</h2>
+                    <h2>3D Modeling and Art</h2>
                     <p>
-                        Right after graduating university, I helped out with
-                        a social media project by modeling and sculpting
-                        a character.  Here is a look at the face sculpt so far!
+                        A collection of all of my 3D art - including character sculpts and models.  
+                        Most are modeled in Maya and sculpted in ZBrush unless noted otherwise.
                     </p>
                 </article>
+                <div class="nested-grid">
+                    <a class="card" href="influencer.html">
+                        <img class="photobox" src="/images/updatedFace2.JPEG" alt="Digital model of a woman's face">
+                        <div class="cardInfo">
+                            <h3 class="cardText"><b>Digital Character</b></h3>
+                        </div>
+                    </a>
+                </div>
             </div>
             <div class="footer">
                 <!--social media links-->
-                <a href="https://www.instagram.com/mortalitasiklaus/">
+                <a href="https://www.instagram.com/mortalitasiklaus/" aria-label="Visit Instagram">
                     <i class="fab fa-instagram fa-lg"></i>
                 </a>
-                <a class="social" href="https://twitter.com/tiniMcCree">
+                <a class="social" href="https://twitter.com/tiniMcCree" aria-label="Visit Twitter">
                     <i class="fab fa-twitter fa-lg"></i>
                 </a>
             </div>

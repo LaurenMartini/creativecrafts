@@ -2,7 +2,6 @@
 .container{
     display: grid;
     grid-template-columns: 300px 300px;
-    /* grid-template-rows: 250px 450px 300px 150px; */
     grid-auto-rows: minmax(200px, auto);
     grid-template-areas:
         "hd"
@@ -41,7 +40,6 @@
     .container{
         display:grid;
         grid-template-columns: 300px 300px 300px;
-        /* grid-template-rows: 250px 600px; */
         grid-auto-rows: minmax(200px, auto);
         grid-template-areas: 
         "hd hd hd hd hd hd hd hd"
@@ -55,7 +53,6 @@
     .container{
         display:grid;
         grid-template-columns: 300px 300px 300px;
-        /* grid-template-rows: 250px 900px; */
         grid-auto-rows: minmax(200px, auto);
         grid-template-areas: 
         "hd hd hd hd hd hd hd hd"
@@ -67,8 +64,9 @@
 /*nested grid*/
 .nested-grid {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 50% 50%;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    grid-gap: 1rem;
 }
 
 .post-img-grid{

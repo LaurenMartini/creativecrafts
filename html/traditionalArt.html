@@ -66,44 +66,49 @@
                         </ul>
                     </div>
                 </nav>
-                <nav>
-                    <a class="streamlineLink" href="homepage.html">Home</a>
-                </nav>
+                <form>
+                    <div class="formHeader">
+                        <h2>Subscribe</h2>
+                    </div>
+                    <div class="formBody">
+                        <label class="formLabel">
+                            Name
+                            <input type="text" placeholder="Name" name="name" required>
+                        </label>
+                        <label class="formLabel">
+                            Email
+                            <input type="text" placeholder="Email address" name="mail" required>
+                        </label>
+                    </div>
+                    <div class="formBtn">
+                        <button type="submit" class="btn">Subscribe</button>
+                    </div>
+                </form>
+                <button type="button" class="btn" onclick="document.location='homepage.html'">Home</button>
             </div>
             <div class="main">
-                <div class="post-img-grid">
-                    <img class="photobox" src="/images/hanzoGlassEtching.JPG" alt="Three images side by side of a wine glass with a dragon etched into it">
-                </div>
                 <article>
-                    <h2>Hanzo Dragon Tattoo Glass Etching</h2>
+                    <h2>Traditional Art</h2>
                     <p>
-                        A gift for my boo!
-                    </p>
-                    <p>
-                        I etched this piece as part of a Christmas gift to my partner.  They are a huge fan
-                        of Hanzo.  I had an empty wine bottle and was randomly inspired to pick up my
-                        glass etching skills to recreate Hanzo's dragon tattoo around it.
-                    </p>
-                    <p>
-                        First I masked the entire bottle with painter's tape.  Next I marked the design
-                        on it with pencil.
-                    </p>
-                    <p>
-                        Then carved the spots I wanted etched out using an exacto knife.
-                        I covered these exposed spots with etching cream, let it sit, and then washed it off.
-                    </p>
-                    <p>
-                        With a base design etched into the glass, I used a dremel to add fine lines to
-                        really finalize the design.
+                        A collection of all of my art made non-digitally, such as glass etching, sketching with pencil and paper,
+                        and acrylic paintings.
                     </p>
                 </article>
+                <div class="nested-grid">
+                    <a class="card" href="glass.html">
+                        <img class="photobox" src="/images/hanzoGlassEtching.JPG" alt="Three images side by side of a wine glass with a dragon etched into it">
+                        <div class="cardInfo">
+                            <h3 class="cardText"><b>Hanzo Glass Etching</b></h3>
+                        </div>
+                    </a>
+                </div>
             </div>
             <div class="footer">
                 <!--social media links-->
-                <a href="https://www.instagram.com/mortalitasiklaus/">
+                <a href="https://www.instagram.com/mortalitasiklaus/" aria-label="Visit Instagram">
                     <i class="fab fa-instagram fa-lg"></i>
                 </a>
-                <a class="social" href="https://twitter.com/tiniMcCree">
+                <a class="social" href="https://twitter.com/tiniMcCree" aria-label="Visit Twitter">
                     <i class="fab fa-twitter fa-lg"></i>
                 </a>
             </div>

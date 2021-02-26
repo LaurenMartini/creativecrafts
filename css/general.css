@@ -1,0 +1,80 @@
+body{
+    background-image: linear-gradient(#ff12f7,#12fbff);
+    background-repeat: no-repeat;
+}
+
+h1, h2, h3 {
+    color: #fff;
+    font-family: 'Acme', sans-serif;
+}
+
+.logo {
+    font-size: 5em;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.streamlineLink {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social {
+    margin-left: 20px;
+}
+
+.fab {
+    color: #fff;
+}
+
+/*blog card styles*/
+.card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    background-color: magenta;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+}
+
+.cardInfo{
+    padding: 2px 16px;
+}
+
+.cardText{
+    text-align: center;
+}
+
+/*button styles*/
+.btn {
+    width: 180px;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: magenta;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+/*Form*/
+.formLabel{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
