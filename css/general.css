@@ -16,9 +16,15 @@ a {
     font-family: 'Montserrat', sans-serif;
 }
 
-p {
+p, blockquote {
     font-family: 'Montserrat', sans-serif;
     color: #fff;
+}
+
+figcaption {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-align: center;
 }
 
 ul{
